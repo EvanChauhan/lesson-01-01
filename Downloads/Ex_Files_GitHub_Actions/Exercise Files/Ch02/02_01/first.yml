@@ -11,12 +11,4 @@
         uses: actions/checkout@v2
       - name: Step two
         run: env | sort
-    Job2: 
-      name: Second job 
-      runs-on: ubuntu-latest
-      steps: 
-      - name: Step one
-        uses: actions/checkout@v2
-      - name: Step two 
-        run: env | sort
 
